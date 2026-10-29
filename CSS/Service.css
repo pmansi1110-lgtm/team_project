@@ -1,0 +1,282 @@
+
+main
+{
+    background: #FDFAF1;
+}
+.hero{
+    background-image: url(/team_project/photos/Services-Hero-BG-1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herotxt{
+    height: 600px;
+}
+.herotxt h3{
+    font-size: 73px;
+    color: #343F1E;
+}
+
+.herotxt h5{
+ color: #343F1E;
+}
+.splan1, .splan2 ,.splan3,.splan4{
+    height: 700px; 
+    background: #FDFAF1;
+}
+.sp1txt,.sp2txt,.sp3txt,.sp4txt {
+    height: 500px;
+}
+.sp1txt h4,.sp2txt h4,.sp3txt h4,.sp4txt h4{
+font-size: 21px;
+ color: #343F1E;
+
+}
+.sp1txt h3 ,.sp2txt h3,.sp3txt h3,.sp4txt h3 {
+font-size: 48px;
+ color: #343F1E;
+
+}
+button{
+   color: white;
+   background-color:#456604;
+   
+   padding: 12px;
+   width: 200px;
+  
+} 
+button:hover{
+    background-color:#70A309;
+    color: white;
+}
+
+.sp1img{
+    height: 551.89px;
+    width: 551.89px;
+}
+
+
+
+
+.main{
+    background-image: url(img/teambg.jpeg);
+    height: 780px;
+        background-size: cover; 
+    background-position: center;
+    padding: 110px 110px 110px 110px;
+    
+}
+
+.left{
+    height: 500px;
+    width: 50%;
+    /* border: 2px solid red; */
+    color: #343F1E;
+}
+
+.right{
+    height: 500px;
+    width: 50%;
+    
+    /* border: 2px solid rgb(12, 0, 236); */
+}
+.left p{
+    font-size: 18px;
+}
+.left h1{
+    font-size: 48px;
+}
+.darsh{
+    font-size: 18px;
+    margin-top: 3rem;
+
+}
+.marcellus-regular{
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}
+
+.call{
+    
+    align-items: center;
+}
+.email{
+    font-size: 18px;
+}
+
+.location{
+    font-size: 18px;
+}
+
+
+
+
+
+
+.contact-form-box {
+    height: 550px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-form-box h3 {
+    font-size: 32px;
+    color: #343F1E;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #343F1E;
+    background-color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+
+
+.contact-form-box textarea {
+    resize: vertical;
+    height: 130px;
+}
+
+.submit-btn {
+    background-color: #556B2F;
+    color: #fff;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+}
+
+.submit-btn:hover {
+    background-color: #455624;
+}
+
+
+/* header footer  */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    min-height: 100px;
+    width: 100%;
+    font-family: inherit;
+    background-color: #FDFAF1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.logo {
+    flex: 0 0 125px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    width: 125px;
+    height: auto;
+    margin: 0 !important;
+}
+
+.menu-sec {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0;
+    height: auto;
+    /* font-family: 'Inter', sans-serif; */
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 120px;
+    
+}
+
+.menu-sec ul {
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+   
+    padding: 0;
+    z-index: 1;
+}
+
+.menu-sec ul li a {
+    text-decoration: none;
+    color: #343F1E;
+}
+
+.button-op {
+    min-width: 200px;
+    min-height: 40px;
+    
+    
+
+    border: 1px solid #343F1E;
+    border-radius: 25px;
+    
+    z-index: 2;
+
+    color: #343F1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+.menu-sec ul li a:hover {
+    color: #70a309;
+}
+.button-op:hover{
+    background-color: #70a309;
+    color: white;
+}
+footer{
+    height: 480px;
+    background-color: #E3E9D8;
+   
+    font-size: 16px ;
+   
+  
+    
+    padding: 120px 10px 124px;
+}
+.main-content{
+    height: 235px;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 80px;
+    font-family: 'Inter', sans-serif;
+    color: #343F1E;
+}
+
